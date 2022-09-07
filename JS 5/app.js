@@ -149,3 +149,29 @@ var area = pie * (radius * radius)
 document.write("<h4>Radius of Circle " + radius + "</h4>")
 document.write("<h4>Circumference of Circle " + cir + "</h4>")
 document.write("<h4>Area of Circle " + area + "</h4>")
+
+
+
+
+
+document.write(
+    '<h1> The Lifetime Supply Calculator:</h1>'
+)
+
+var snack = 'Doritos'
+var c_age = 15
+var m_age = 65
+var per_day = 3
+
+var max_snack = (m_age - c_age) * 365
+
+document.write("<h4>Favourite Snack: " + snack + "</h4>")
+document.write("<h4>Current Age: " + c_age + "</h4>")
+document.write("<h4>Max Age: " + m_age + "</h4>")
+document.write("<h4>Amount of Snack Per Day: " + per_day + "</h4>")
+
+
+
+document.write("<h4>You'll need " + max_snack * per_day + " snacks to servive</h4>")
+
+
