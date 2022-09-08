@@ -1,3 +1,8 @@
+
+
+document.write('<h2>End of Q11</h2>')
+
+
 var num1 = +prompt('Enter 1st number', "")
 var num2 = +prompt('Enter 2st number', "")
 var add_result = num1 + num2
@@ -48,3 +53,99 @@ for (var i = 1; i < 11; i++) {
 
 
 document.write('<h2>End of Q4</h2>')
+
+
+
+var celsius = 25
+var farenheit = 105
+
+document.write('<h4>' + farenheit + 'F into celsius is ' + (farenheit - 32) * 5 / 9 + 'C</h4>')
+
+document.write('<h4>' + celsius + 'C into fahrenheit is ' + ((celsius * 9 / 5) + 32) + 'F</h4>')
+
+document.write('<h2>End of Q5</h2>')
+
+
+var item1 = 200
+var q_item1 = 3
+var item2 = 400
+var q_item2 = 1
+var ship = 100
+var total = (item1 * q_item1) + (item2 * q_item2) + ship
+document.write('<h2>Price of Item 1 = ' + item1 + '</h2>')
+document.write('<h2>Quantity of Item 1 = ' + q_item1 + '</h2>')
+document.write('<h2>Price of Item 2 = ' + item2 + '</h2>')
+document.write('<h2>Quantity of Item 2 = ' + q_item2 + '</h2>')
+
+document.write('<h2>Shipping Charges = ' + ship + '</h2>')
+
+
+document.write('<h2>Total Charges = ' + total + '</h2>')
+
+
+
+document.write('<h2>End of Q6</h2>')
+
+
+// alert('ubebvbweovboeurb')
+
+document.write('<h1>Marksheet</h1>')
+
+
+var marks = 800
+var total = 900
+var percentage = (marks / total) * 100
+
+document.write('<h2>Total Marks =' + total + ' </h2>')
+
+document.write('<h2>Obtained Marks =' + marks + ' </h2>')
+
+document.write('<h2>Percentage =' + percentage + ' </h2>')
+
+document.write('<h2>End of Q7</h2>')
+
+document.write('<h1>Currency In PKR</h1>')
+
+var usd = 104.80
+var sdr = 28
+var total_c = (usd * 10) + (sdr * 25)
+
+document.write('<h3>Total Currency in PKR =' + total_c + ' </h3>')
+
+
+document.write('<h2>End of Q8</h2>')
+
+
+var num3 = 10
+
+var calc = ((10 + 5) * 10) / 2
+
+
+document.write("<h1>" + calc + "</h1>")
+document.write('<h2>End of Q9</h2>')
+
+
+
+
+
+var date = new Date()
+var year = 2003
+var age = date.getFullYear() - year
+document.write("<h2> Your birth year is  " + year)
+document.write("<h2> Current year is  " + date.getFullYear())
+document.write("<h2> Your age is  " + age)
+
+
+document.write('<h2>End of Q10</h2>')
+
+
+
+
+var radius = 20
+var pie = 3.14
+var cir = 2 * (pie * radius)
+var area = pie * (radius * radius)
+
+document.write("<h4>Radius of Circle " + radius + "</h4>")
+document.write("<h4>Circumference of Circle " + cir + "</h4>")
+document.write("<h4>Area of Circle " + area + "</h4>")
