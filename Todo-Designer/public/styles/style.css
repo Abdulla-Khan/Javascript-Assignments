@@ -24,12 +24,10 @@ body {
 }
 
 header {
-
     padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
-
 }
 
 header h1 {
@@ -41,7 +39,7 @@ header h1 {
 
 #new-task-form {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 input,
@@ -53,13 +51,14 @@ button {
 }
 
 #new-task-input {
+    width: 10%;
     flex: 1 1 0%;
     background-color: var(--darker);
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
     color: var(--light);
-    font-size: 1.25rem;
+    font-size: 2vh;
 }
 
 #new-task-input::placeholder {
@@ -76,7 +75,6 @@ button {
     cursor: pointer;
     transition: 0.4s;
     -webkit-text-fill-color: transparent;
-
 }
 
 #new-task-submit:hover {
@@ -144,7 +142,6 @@ main {
     font-weight: 700;
     text-transform: uppercase;
     transition: 0.4s;
-
 }
 
 .task .actions button:hover {
@@ -162,7 +159,6 @@ main {
     background-image: linear-gradient(to right, var(--pink), var(--purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .task .actions .delete {
